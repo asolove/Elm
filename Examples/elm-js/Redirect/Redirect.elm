@@ -1,9 +1,8 @@
 
 module Redirect where
 
-import Foreign.JavaScript
-import Signal.Input
-
+import JavaScript
+import Input
 
 foreign export jsevent "redirect"
   redirectTo :: Signal JSString
